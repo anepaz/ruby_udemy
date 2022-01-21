@@ -1,6 +1,6 @@
 <% if @article.errors.any? %>
 
-  <h2>The following erros prevented the article from being saved</h2>
+  <h2>The following errors prevented the article from being saved</h2>
   <ul>
     <% @article.errors.full_messages.each do |msg| %>
       <li><%= msg %></li>
@@ -8,7 +8,7 @@
   </ul>
 <% end %>
 
-<%= form_with(model: @article, local: true) do |f| %>
+<%= form_with scope: :article, url: articles_path, local: true do |f| %>
 
   <p>
     <%= f.label :title %><br/>
@@ -25,4 +25,4 @@
     
   </p>
 
-  <% end %>
+<% end %>
