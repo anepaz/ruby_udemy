@@ -6,7 +6,6 @@
       
     .navbar-brand {  
       font-size: 24px;
-
     }
 
     .nav-link {
@@ -41,15 +40,28 @@
       opacity: 90%;
     }
 
-    html, body {
+    html {
       height: 100%;
+    }
+
+    body {
+      min-height: 100%;
       width: 100%;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
     }
 
     #page-content {
       flex: 1 0 auto;
+      background-color: #FCEFF9;
     }
 
     #sticky-footer {
       flex-shrink: none;
+      background: #CF4D6F;
+      color: white;
+      padding: 3em;
+      margin-top: auto;
     }
