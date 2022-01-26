@@ -1,0 +1,54 @@
+@import "bootstrap";
+    .navbar {
+      background-color: #CF4D6F !important;
+      height: 50px;
+    }  
+      
+    .navbar-brand {  
+      font-size: 24px;
+
+    }
+
+    .nav-link {
+      color: white !important;
+    }
+
+    .nav-link:hover {
+      color: #D4E79E !important;
+    }
+
+    #logo {
+      float: left;
+      font-size: 1.7em;
+      color: #ffffff;
+      letter-spacing: -1px;
+      font-weight: bold;
+    }
+
+    #logo:hover {
+      color: #D4E79E !important;
+    }
+
+    #home-container {
+      margin-top: 25px;
+    }
+
+    .jumbotron {
+      background-image: asset-url('bg.jpeg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 90%;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    #page-content {
+      flex: 1 0 auto;
+    }
+
+    #sticky-footer {
+      flex-shrink: none;
+    }
