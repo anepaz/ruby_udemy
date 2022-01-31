@@ -1,9 +1,10 @@
-<h1>Edit  recipe</h1>
+<div id="page-content">
+  <h1 class="text-center mt-4">Edit recipe</h1>
 
-<%= render 'form' %>
-
-  <p>
+  <%= render 'form' %>
     
+  <%= button_to "Delete", article_path(@article), class: "btn btn-outline-danger", method: :delete, data: {confirm: "Are you sure?"} %>
+
   <%= link_to 'Cancel and return to the recipes page', articles_path %>
 
-  </p>
+</div>
