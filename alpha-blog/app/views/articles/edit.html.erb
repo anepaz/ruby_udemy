@@ -1,7 +1,6 @@
-<div id="page-content">
-  <h1 class="text-center mt-4">Edit recipe</h1>
+<h1 class="text-center mt-4">Edit recipe</h1>
   <%= render 'form' %>
+
+<div class="text-center justify-content-center">
+  <%= button_to "Delete", article_path(@article), class: "btn btn-outline-danger", method: :delete, data: {confirm: "Are you sure?"} %><br/>
 </div>
-<p>
-  <%= button_to "Delete", article_path(@article), class: "btn btn-outline-danger", method: :delete, data: {confirm: "Are you sure?"} %>
-</p>
