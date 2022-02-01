@@ -24,7 +24,7 @@ This is a project made for the Ruby on Rails Complete Course on Udemy and it bas
 
 Just as a standard Ruby application, you'll need to have everything up to date (Ruby, Git and Bundler) and run the rails server on the console inside the project diretory/folder. The command to run the server is the standard:
 
-user@system-os:~/(directory)$ rails s
+user@system-os:~/(directory)$ rails s <br>
 
-<br> Access localhost:3000 <br>
+Access localhost:3000 <br>
 PS: Sublime Text Editor was used for this project.
