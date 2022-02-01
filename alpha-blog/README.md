@@ -26,4 +26,5 @@ Just as a standard Ruby application, you'll need to have everything up to date (
 
 user@system-os:~/(directory)$ rails s
 
+- Access localhost:3000
 PS: Sublime Text Editor was used for this project.
