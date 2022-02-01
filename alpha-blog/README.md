@@ -22,7 +22,7 @@ This is a project made for the Ruby on Rails Complete Course on Udemy and it bas
 
 :beverage_box: How to run
 
-Just as a standard Ruby application, you'll need to have the components of the project up to date and run the rails server on the console inside the project diretory/folder. The command to run the server is the standard:
+Just as a standard Ruby application, you'll need to have everything up to date (Ruby, Git and Bundler) and run the rails server on the console inside the project diretory/folder. The command to run the server is the standard:
 
 user@system-os:~/(directory)$ rails s
 
